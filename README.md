@@ -1,5 +1,5 @@
 Automated ELK Stack Deployment 
--
+
 The files in this repository were used to configure the network depicted below.
 
 Note: The following image link needs to be updated. Replace diagram_filename.png with the name of your diagram image file.
@@ -22,7 +22,7 @@ How to Use the Ansible Build
 
 
 Description of the Topology
--
+
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
@@ -54,11 +54,12 @@ Gateway
 Linux
 
 
+
+
 Web-1 DVWA
 Server
 10.0.0.5
 Linux
-
 
 
 
@@ -89,7 +90,7 @@ Linux
 
 
 Access Policies
--
+
 The machines on the internal network are not exposed to the public Internet.
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
@@ -144,7 +145,7 @@ No
 
 
 Elk Configuration
--
+
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
 By automating the configuration with ansible it ensured that our provisioning scripts run indentically anytime they run, anywhere. This allows for easy instillation of multiple versions and helps eleminate as much variablity between configurations.
