@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 https://lucid.app/lucidchart/invitations/accept/15590e23-dc60-448a-9c79-c378103e352a
 
 This document contains the following details:
-
+-
 Description of the Topology
 Access Policies
 ELK Configuration
@@ -17,12 +17,11 @@ ELK Configuration
 Beats in Use
 Machines Being Monitored
 
-
 How to Use the Ansible Build
 
 
 Description of the Topology
-
+-
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
@@ -90,7 +89,7 @@ Linux
 
 
 Access Policies
-
+-
 The machines on the internal network are not exposed to the public Internet.
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
@@ -145,13 +144,13 @@ No
 
 
 Elk Configuration
-
+-
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
 By automating the configuration with ansible it ensured that our provisioning scripts run indentically anytime they run, anywhere. This allows for easy instillation of multiple versions and helps eleminate as much variablity between configurations.
 
 The playbook implements the following tasks:
-
+-
 Step 1 - Configure ELK VM with Docker
 
 Step 2 - Install docker.io
@@ -165,12 +164,9 @@ Step 5 - Download & launch ELK container with Docker
 Step 6 - Use systemctl to increase overall memory
 
 
-The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-
-Note: The following image link needs to be updated. Replace docker_ps_output.png with the name of your screenshot image file.
-
-
 Target Machines & Beats
+-
+
 This ELK server is configured to monitor the following machines:
 
 Web-1 DVWA 10.0.0.5
