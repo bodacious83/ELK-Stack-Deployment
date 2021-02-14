@@ -168,5 +168,7 @@ Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
 Web-1 DVWA 10.0.0.5
+
 Web-2 DVWA 10.0.0.8
+
 Web-3 DVWA 10.0.0.9
