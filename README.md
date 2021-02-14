@@ -153,11 +153,17 @@ By automating the configuration with ansible it ensured that our provisioning sc
 The playbook implements the following tasks:
 
 Step 1 - Configure ELK VM with Docker
+
 Step 2 - Install docker.io
+
 Step 3 - Install pip3
+
 Step 4 - Install python module with Docker
+
 Step 5 - Download & launch ELK container with Docker
+
 Step 6 - Use systemctl to increase overall memory
+
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
