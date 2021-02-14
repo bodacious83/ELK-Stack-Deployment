@@ -6,7 +6,7 @@ Note: The following image link needs to be updated. Replace diagram_filename.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Red-Team Network Diagram file may be used to install only certain pieces of it, such as Filebeat.
 
-TODO: Enter the playbook file.
+https://lucid.app/lucidchart/invitations/accept/15590e23-dc60-448a-9c79-c378103e352a
 
 This document contains the following details:
 
