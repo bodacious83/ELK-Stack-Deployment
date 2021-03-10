@@ -1,0 +1,25 @@
+files=(
+'/etc/passwd'
+'/etc/shadow'
+)
+for file in ${files[@]}
+do
+ls -l $file >> $output
+done
+echo -e "\nThe permissions for sensitive /etc files: \n" >> $output
+for file in ${files[@]}
+do
+  ls -l $file >> $output
+done
+#Display CPU usage
+echo -e "\nCPU Info:" >> $output
+lscpu | grep CPU >> $output
+
+# Display Disk usage
+echo -e "\nDisk Usage:" >> $output
+df -H | head -2 >> $output
+
+#Display the current user
+echo -e "\nCurrent user login information: \n $(who -a) \n" >> $output
+
+# ETC...
